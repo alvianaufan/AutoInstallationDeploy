@@ -35,6 +35,7 @@ sudo apt-get install -y \
   php8.1-zip \
   php8.1-fpm >/dev/null 2>&1
 
+sudo systemctl enable php8.1-fpm.service >/dev/null 2>&1
 echo "=== PHP 8.1 installation completed successfully ==="
 php -m
 php -v
