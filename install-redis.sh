@@ -1,3 +1,3 @@
 sudo apt install redis-server -y
-sudo systemctl start redis.service
-sudo systemctl enable redis.service
+sudo systemctl start redis.server
+sudo systemctl enable redis.server
